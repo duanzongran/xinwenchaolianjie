@@ -1,0 +1,41 @@
+name: 更新新闻超链接 RSS
+
+on:
+  schedule:
+    # 北京时间 22:30（节目 21:00-22:00 播完后再抓）
+    - cron: '30 14 * * *'
+  workflow_dispatch:
+    inputs:
+      days:
+        description: '回抓最近多少天（首次填 400 可补一年）'
+        required: false
+        default: '30'
+
+permissions:
+  contents: write
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 抓取并重建 feed
+        run: python make_feed.py ${{ github.event.inputs.days || 30 }}
+
+      - name: 提交变更
+        run: |
+          git config user.name "feed-bot"
+          git config user.email "feed-bot@users.noreply.github.com"
+          git add feed.xml episodes.json
+          if git diff --cached --quiet; then
+            echo "无变更"
+          else
+            git commit -m "更新新闻超链接 $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
