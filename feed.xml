@@ -8,8 +8,16 @@
 <itunes:author>中国之声</itunes:author>
 <itunes:image href="https://duanzongran.github.io/xinwenchaolianjie/cover.jpg"/>
 <image><url>https://duanzongran.github.io/xinwenchaolianjie/cover.jpg</url><title>新闻超链接（中国之声）</title><link>https://www.radio.cn/pc-portal/erji/radioStation.html?id=24</link></image>
-<lastBuildDate>Mon, 23 Nov 2026 21:00:00 +0800</lastBuildDate>
+<lastBuildDate>Tue, 24 Nov 2026 21:00:00 +0800</lastBuildDate>
 <atom:link href="https://duanzongran.github.io/xinwenchaolianjie/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>2026-11-24 新闻超链接</title>
+<description>2026-11-24 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427618438.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87312763"/>
+<guid isPermaLink="false">xwclj-2026-11-24</guid>
+<pubDate>Tue, 24 Nov 2026 21:00:00 +0800</pubDate>
+<itunes:duration>01:00:00</itunes:duration>
+</item>
 <item>
 <title>2026-11-23 新闻超链接</title>
 <description>2026-11-23 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
