@@ -6,245 +6,247 @@
 <description>中央广播电视总台中国之声《新闻超链接》，每天 21:00-22:00 播出。音频来自云听，仅存链接不存文件。</description>
 <language>zh-cn</language>
 <itunes:author>中国之声</itunes:author>
-<lastBuildDate>Tue, 24 Nov 2026 09:48:30 +0800</lastBuildDate>
-<atom:link href="feed.xml" rel="self" type="application/rss+xml"/>
+<itunes:image href="https://duanzongran.github.io/xinwenchaolianjie/cover.jpg"/>
+<image><url>https://duanzongran.github.io/xinwenchaolianjie/cover.jpg</url><title>新闻超链接（中国之声）</title><link>https://www.radio.cn/pc-portal/erji/radioStation.html?id=24</link></image>
+<lastBuildDate>Mon, 23 Nov 2026 21:00:00 +0800</lastBuildDate>
+<atom:link href="https://duanzongran.github.io/xinwenchaolianjie/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>2026-11-23 新闻超链接</title>
 <description>2026-11-23 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427616722.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554703</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427616722.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87481043"/>
+<guid isPermaLink="false">xwclj-2026-11-23</guid>
 <pubDate>Mon, 23 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-22 新闻超链接</title>
 <description>2026-11-22 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427615021.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554682</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427615021.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87159911"/>
+<guid isPermaLink="false">xwclj-2026-11-22</guid>
 <pubDate>Sun, 22 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-21 新闻超链接</title>
 <description>2026-11-21 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427613322.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554661</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427613322.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87310697"/>
+<guid isPermaLink="false">xwclj-2026-11-21</guid>
 <pubDate>Sat, 21 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-20 新闻超链接</title>
 <description>2026-11-20 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427611602.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554640</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427611602.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87107670"/>
+<guid isPermaLink="false">xwclj-2026-11-20</guid>
 <pubDate>Fri, 20 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-19 新闻超链接</title>
 <description>2026-11-19 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427609900.m4a?e=0&amp;ps=3&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980671082</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427609900.m4a?e=0&amp;ps=3&amp;r=1" type="audio/mp4" length="79953500"/>
+<guid isPermaLink="false">xwclj-2026-11-19</guid>
 <pubDate>Thu, 19 Nov 2026 21:05:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-18 新闻超链接</title>
 <description>2026-11-18 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427608157.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554598</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427608157.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87212254"/>
+<guid isPermaLink="false">xwclj-2026-11-18</guid>
 <pubDate>Wed, 18 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-17 新闻超链接</title>
 <description>2026-11-17 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427606471.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554577</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427606471.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87550579"/>
+<guid isPermaLink="false">xwclj-2026-11-17</guid>
 <pubDate>Tue, 17 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-16 新闻超链接</title>
 <description>2026-11-16 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427604733.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554556</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427604733.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87072679"/>
+<guid isPermaLink="false">xwclj-2026-11-16</guid>
 <pubDate>Mon, 16 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-15 新闻超链接</title>
 <description>2026-11-15 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427603008.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554535</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427603008.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87177111"/>
+<guid isPermaLink="false">xwclj-2026-11-15</guid>
 <pubDate>Sun, 15 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-14 新闻超链接</title>
 <description>2026-11-14 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427601295.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554514</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427601295.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87312197"/>
+<guid isPermaLink="false">xwclj-2026-11-14</guid>
 <pubDate>Sat, 14 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-13 新闻超链接</title>
 <description>2026-11-13 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427599583.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554493</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427599583.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87412911"/>
+<guid isPermaLink="false">xwclj-2026-11-13</guid>
 <pubDate>Fri, 13 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-12 新闻超链接</title>
 <description>2026-11-12 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytmedia.radio.cn/file/202611/12/23/552634090db6938c621949649e32380148949b08h.mp3" type="audio/mpeg" length="0"/>
-<guid isPermaLink="false">xwclj-980554472</guid>
+<enclosure url="https://ytmedia.radio.cn/file/202611/12/23/552634090db6938c621949649e32380148949b08h.mp3" type="audio/mpeg" length="86387178"/>
+<guid isPermaLink="false">xwclj-2026-11-12</guid>
 <pubDate>Thu, 12 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-11 新闻超链接</title>
 <description>2026-11-11 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427596140.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554451</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427596140.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87227735"/>
+<guid isPermaLink="false">xwclj-2026-11-11</guid>
 <pubDate>Wed, 11 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-10 新闻超链接</title>
 <description>2026-11-10 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytmedia.radio.cn/file/202611/10/22/51923048842278dbe0814708884640c333741dbfh.mp3" type="audio/mpeg" length="0"/>
-<guid isPermaLink="false">xwclj-980554430</guid>
+<enclosure url="https://ytmedia.radio.cn/file/202611/10/22/51923048842278dbe0814708884640c333741dbfh.mp3" type="audio/mpeg" length="85385330"/>
+<guid isPermaLink="false">xwclj-2026-11-10</guid>
 <pubDate>Tue, 10 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-09 新闻超链接</title>
 <description>2026-11-09 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427592546.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554409</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427592546.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87396912"/>
+<guid isPermaLink="false">xwclj-2026-11-09</guid>
 <pubDate>Mon, 09 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-08 新闻超链接</title>
 <description>2026-11-08 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427590657.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554388</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427590657.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87294839"/>
+<guid isPermaLink="false">xwclj-2026-11-08</guid>
 <pubDate>Sun, 08 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-07 新闻超链接</title>
 <description>2026-11-07 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427588837.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554367</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427588837.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87176569"/>
+<guid isPermaLink="false">xwclj-2026-11-07</guid>
 <pubDate>Sat, 07 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-06 新闻超链接</title>
 <description>2026-11-06 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427587113.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554346</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427587113.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87039978"/>
+<guid isPermaLink="false">xwclj-2026-11-06</guid>
 <pubDate>Fri, 06 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-05 新闻超链接</title>
 <description>2026-11-05 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427585348.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554325</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427585348.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87312638"/>
+<guid isPermaLink="false">xwclj-2026-11-05</guid>
 <pubDate>Thu, 05 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-04 新闻超链接</title>
 <description>2026-11-04 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427583623.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554304</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427583623.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87159979"/>
+<guid isPermaLink="false">xwclj-2026-11-04</guid>
 <pubDate>Wed, 04 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-03 新闻超链接</title>
 <description>2026-11-03 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytmedia.radio.cn/file/202611/03/23/553783008cacac1cbe91450b9ca38e31e193c6cfh.mp3" type="audio/mpeg" length="0"/>
-<guid isPermaLink="false">xwclj-980554283</guid>
+<enclosure url="https://ytmedia.radio.cn/file/202611/03/23/553783008cacac1cbe91450b9ca38e31e193c6cfh.mp3" type="audio/mpeg" length="86105056"/>
+<guid isPermaLink="false">xwclj-2026-11-03</guid>
 <pubDate>Tue, 03 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-02 新闻超链接</title>
 <description>2026-11-02 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427579982.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554262</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427579982.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87159963"/>
+<guid isPermaLink="false">xwclj-2026-11-02</guid>
 <pubDate>Mon, 02 Nov 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-11-01 新闻超链接</title>
 <description>2026-11-01 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427578217.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980666556</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427578217.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="65655968"/>
+<guid isPermaLink="false">xwclj-2026-11-01</guid>
 <pubDate>Sun, 01 Nov 2026 21:15:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-10-31 新闻超链接</title>
 <description>2026-10-31 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427578011.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980666561</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427578011.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87381502"/>
+<guid isPermaLink="false">xwclj-2026-10-31</guid>
 <pubDate>Sat, 31 Oct 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-10-30 新闻超链接</title>
 <description>2026-10-30 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427574766.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980666534</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427574766.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="72813199"/>
+<guid isPermaLink="false">xwclj-2026-10-30</guid>
 <pubDate>Fri, 30 Oct 2026 21:10:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-10-29 新闻超链接</title>
 <description>2026-10-29 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427572736.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554178</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427572736.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87143190"/>
+<guid isPermaLink="false">xwclj-2026-10-29</guid>
 <pubDate>Thu, 29 Oct 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-10-28 新闻超链接</title>
 <description>2026-10-28 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427571055.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554157</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427571055.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87216537"/>
+<guid isPermaLink="false">xwclj-2026-10-28</guid>
 <pubDate>Wed, 28 Oct 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-10-27 新闻超链接</title>
 <description>2026-10-27 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427569345.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554136</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427569345.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87489923"/>
+<guid isPermaLink="false">xwclj-2026-10-27</guid>
 <pubDate>Tue, 27 Oct 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-10-26 新闻超链接</title>
 <description>2026-10-26 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427567638.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980554115</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427567638.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87449462"/>
+<guid isPermaLink="false">xwclj-2026-10-26</guid>
 <pubDate>Mon, 26 Oct 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
 <item>
 <title>2026-10-25 新闻超链接</title>
 <description>2026-10-25 新闻超链接，中国之声《新闻超链接》当期完整录音。</description>
-<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427565939.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="0"/>
-<guid isPermaLink="false">xwclj-980666456</guid>
+<enclosure url="https://ytrecordbroadcast.radio.cn/echo/2/2963630829427565939.m4a?e=0&amp;ps=1&amp;r=1" type="audio/mp4" length="87158470"/>
+<guid isPermaLink="false">xwclj-2026-10-25</guid>
 <pubDate>Sun, 25 Oct 2026 21:00:00 +0800</pubDate>
 <itunes:duration>01:00:00</itunes:duration>
 </item>
