@@ -2,17 +2,21 @@ name: 更新新闻超链接 RSS
 
 on:
   schedule:
-    # 北京时间 22:30（节目 21:00-22:00 播完后再抓）
+    # 北京时间 22:30（UTC 14:30）。单次运行，漏抓的由下次回扫 30 天自动补上
     - cron: '30 14 * * *'
   workflow_dispatch:
     inputs:
       days:
-        description: '回抓最近多少天（首次填 400 可补一年）'
+        description: '回扫最近多少天（首次填 400 可补一年）'
         required: false
         default: '30'
 
 permissions:
   contents: write
+
+concurrency:
+  group: feed
+  cancel-in-progress: false
 
 jobs:
   feed:
