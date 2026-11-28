@@ -8,9 +8,12 @@
 设计要点：
 1. 每天只跑一次（北京 22:30）。episodes.json 按 date 去重，feed.xml 每次全量重建。
 2. 每次回扫最近 N 天，当天没抓到的期会在第二天的运行里自动补上。
-3. 只有「文件已完整」才入库：读 Content-Range 拿总字节数，< MIN_BYTES 视为上传中，跳过。
-4. guid 固定用日期（xwclj-2026-11-23），节目 id 变了也不会丢已听记录。
-5. lastBuildDate 取最新一集的 pubDate，没有新集就不会产生空 commit。
+3. 优先用 playUrlLow（约 22MB / 48kbps AAC），听感够用且省流量；
+   只有 low 缺失时才回退到 playUrlHigh（约 83MB / 192kbps）。
+4. 只有「文件已完整」才入库：读 Content-Range 拿总字节数，小于 MIN_BYTES 视为上传中，跳过。
+5. guid 固定用日期（xwclj-2026-11-23），节目 id 变了也不会丢已听记录。
+6. lastBuildDate 取最新一集的 pubDate，没有新集就不会产生空 commit。
+7. feed 不再引用封面图（itunes:image / image 已移除）。
 """
 import hashlib
 import time
@@ -29,13 +32,14 @@ BROADCAST_ID = '639'          # 中国之声
 PROGRAM_NAME = '新闻超链接'
 TZ = datetime.timezone(datetime.timedelta(hours=8))
 
-# 该节目完整一期约 80-87 MB；低于此值视为尚未上传完成
-MIN_BYTES = 60 * 1024 * 1024
+# 低码率完整一期约 20-23 MB；低于 15MB 视为尚未上传完成
+MIN_BYTES = 15 * 1024 * 1024
 
 FEED_TITLE = '新闻超链接（中国之声）'
 FEED_DESC = '中央广播电视总台中国之声《新闻超链接》，每天 21:00-22:00 播出。音频来自云听，仅存链接不存文件。'
 FEED_LINK = 'https://www.radio.cn/pc-portal/erji/radioStation.html?id=24'
 AUTHOR = '中国之声'
+SITE = 'https://duanzongran.github.io/xinwenchaolianjie'
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STORE = os.path.join(HERE, 'episodes.json')
@@ -90,6 +94,17 @@ def save_store(items):
         json.dump(items, f, ensure_ascii=False, indent=1)
 
 
+def pick_url(hit):
+    """优先低码率；返回 (url, quality)"""
+    low = hit.get('playUrlLow')
+    high = hit.get('playUrlHigh')
+    if low:
+        return low, 'low'
+    if high:
+        return high, 'high'
+    return None, None
+
+
 def crawl_days(days):
     """回扫最近 days 天，返回 {日期: 条目}，只收录已完整的音频"""
     got = {}
@@ -111,7 +126,7 @@ def crawl_days(days):
         if not hit:
             print(f'[{ds}] 无《{PROGRAM_NAME}》')
             continue
-        url = hit.get('playUrlHigh') or hit.get('playUrlLow')
+        url, quality = pick_url(hit)
         if not url:
             print(f'[{ds}] 条目已建但还没上音频')
             continue
@@ -127,11 +142,47 @@ def crawl_days(days):
             'url': url,
             'type': 'audio/mpeg' if url.lower().endswith('.mp3') else 'audio/mp4',
             'size': size,
+            'quality': quality,
             'start': start.strftime('%Y-%m-%dT%H:%M:%S+08:00'),
             'start_ts': hit['startTime'],
         }
-        print(f'[{ds}] OK {hit["id"]} {size / 1048576:.1f}MB')
+        print(f'[{ds}] OK {hit["id"]} {quality} {size / 1048576:.1f}MB')
     return got
+
+
+def refresh_old(by_date):
+    """把窗口外的历史条目也统一换成低码率链接（按日期重查一次接口）"""
+    changed = 0
+    for ds, v in list(by_date.items()):
+        if v.get('quality') == 'low':
+            continue
+        try:
+            res = api('/web/appProgram/listByDate', {'date': ds, 'broadcastId': BROADCAST_ID})
+            lst = res.get('data') or []
+        except Exception as e:
+            print(f'[{ds}] 历史条目重查失败 {e}')
+            continue
+        hit = None
+        for it in lst:
+            if PROGRAM_NAME in (it.get('programName') or ''):
+                hit = it
+                break
+        if not hit:
+            continue
+        url, quality = pick_url(hit)
+        if not url or quality != 'low':
+            continue
+        ok, size, ct = get_meta(url)
+        if not ok:
+            print(f'[{ds}] 历史条目低码率不可用，保持原链接')
+            continue
+        v['url'] = url
+        v['size'] = size
+        v['quality'] = quality
+        v['type'] = 'audio/mpeg' if url.lower().endswith('.mp3') else 'audio/mp4'
+        changed += 1
+        print(f'[{ds}] 历史条目换低码率 {size / 1048576:.1f}MB')
+    return changed
 
 
 def build_feed(items):
@@ -148,10 +199,8 @@ def build_feed(items):
 <description>{escape(FEED_DESC)}</description>
 <language>zh-cn</language>
 <itunes:author>{escape(AUTHOR)}</itunes:author>
-<itunes:image href="https://duanzongran.github.io/xinwenchaolianjie/cover.jpg"/>
-<image><url>https://duanzongran.github.io/xinwenchaolianjie/cover.jpg</url><title>{escape(FEED_TITLE)}</title><link>{escape(FEED_LINK)}</link></image>
 <lastBuildDate>{format_datetime(newest)}</lastBuildDate>
-<atom:link href="https://duanzongran.github.io/xinwenchaolianjie/feed.xml" rel="self" type="application/rss+xml"/>
+<atom:link href="{SITE}/feed.xml" rel="self" type="application/rss+xml"/>
 ''']
     for it in items:
         dt = datetime.datetime.fromtimestamp(it['start_ts'] / 1000, TZ)
@@ -187,9 +236,10 @@ def main():
         if old.get('url') != it['url']:
             by_date[ds] = it
             updated += 1
-            print(f'[{ds}] 地址更新')
+            print(f'[{ds}] 地址/码率更新 -> {it["quality"]}')
         elif not old.get('size'):
             old['size'] = it['size']
+            old['quality'] = it['quality']
             updated += 1
             print(f'[{ds}] 补齐文件大小')
 
@@ -201,6 +251,9 @@ def main():
                 v['size'] = size
                 updated += 1
                 print(f'[{k}] 回填 size {size / 1048576:.1f}MB')
+
+    # 窗口外的历史条目也统一换成低码率
+    updated += refresh_old(by_date)
 
     save_store(sorted(by_date.values(), key=lambda x: x['start_ts']))
     build_feed(list(by_date.values()))
