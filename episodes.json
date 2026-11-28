@@ -3,283 +3,340 @@
   "date": "2026-10-25",
   "id": "980666456",
   "title": "2026-10-25 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427565939.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427565955.m4a?e=0&ps=1&r=3",
   "start": "2026-10-25T21:00:00+08:00",
   "start_ts": 1792933200000,
-  "size": 87158470
+  "size": 22430249,
+  "quality": "low",
+  "type": "audio/mp4"
  },
  {
   "date": "2026-10-26",
   "id": "980554115",
   "title": "2026-10-26 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427567638.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427567631.m4a?e=0&ps=1&r=3",
   "start": "2026-10-26T21:00:00+08:00",
   "start_ts": 1793019600000,
-  "size": 87449462
+  "size": 22595624,
+  "quality": "low",
+  "type": "audio/mp4"
  },
  {
   "date": "2026-10-27",
   "id": "980554136",
   "title": "2026-10-27 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427569345.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427569346.m4a?e=0&ps=1&r=3",
   "start": "2026-10-27T21:00:00+08:00",
   "start_ts": 1793106000000,
-  "size": 87489923
+  "size": 22639048,
+  "quality": "low",
+  "type": "audio/mp4"
  },
  {
   "date": "2026-10-28",
   "id": "980554157",
   "title": "2026-10-28 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427571055.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427571050.m4a?e=0&ps=1&r=3",
   "start": "2026-10-28T21:00:00+08:00",
   "start_ts": 1793192400000,
-  "size": 87216537
+  "size": 22375442,
+  "quality": "low",
+  "type": "audio/mp4"
  },
  {
   "date": "2026-10-29",
   "id": "980554178",
   "title": "2026-10-29 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427572736.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427572750.m4a?e=0&ps=1&r=3",
   "start": "2026-10-29T21:00:00+08:00",
   "start_ts": 1793278800000,
-  "size": 87143190
+  "size": 22252806,
+  "quality": "low",
+  "type": "audio/mp4"
  },
  {
   "date": "2026-10-30",
   "id": "980666534",
   "title": "2026-10-30 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427574766.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427574765.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 18840015,
+  "quality": "low",
   "start": "2026-10-30T21:10:00+08:00",
-  "start_ts": 1793365800000,
-  "size": 72813199
+  "start_ts": 1793365800000
  },
  {
   "date": "2026-10-31",
   "id": "980666561",
   "title": "2026-10-31 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427578011.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427578012.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22520067,
+  "quality": "low",
   "start": "2026-10-31T21:00:00+08:00",
-  "start_ts": 1793451600000,
-  "size": 87381502
+  "start_ts": 1793451600000
  },
  {
   "date": "2026-11-01",
   "id": "980666556",
   "title": "2026-11-01 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427578217.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427578218.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 16997571,
+  "quality": "low",
   "start": "2026-11-01T21:15:00+08:00",
-  "start_ts": 1793538900000,
-  "size": 65655968
+  "start_ts": 1793538900000
  },
  {
   "date": "2026-11-02",
   "id": "980554262",
   "title": "2026-11-02 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427579982.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427579988.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22265603,
+  "quality": "low",
   "start": "2026-11-02T21:00:00+08:00",
-  "start_ts": 1793624400000,
-  "size": 87159963
+  "start_ts": 1793624400000
  },
  {
   "date": "2026-11-03",
   "id": "980554283",
   "title": "2026-11-03 新闻超链接",
-  "url": "https://ytmedia.radio.cn/file/202611/03/23/553783008cacac1cbe91450b9ca38e31e193c6cfh.mp3",
+  "url": "https://ytmedia.radio.cn/file/202611/03/23/553779328cacac1cbe91450b9ca38e31e193c6cfl.mp3",
   "type": "audio/mpeg",
+  "size": 21526287,
+  "quality": "low",
   "start": "2026-11-03T21:00:00+08:00",
-  "start_ts": 1793710800000,
-  "size": 86105056
+  "start_ts": 1793710800000
  },
  {
   "date": "2026-11-04",
   "id": "980554304",
   "title": "2026-11-04 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427583623.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427583634.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22271955,
+  "quality": "low",
   "start": "2026-11-04T21:00:00+08:00",
-  "start_ts": 1793797200000,
-  "size": 87159979
+  "start_ts": 1793797200000
  },
  {
   "date": "2026-11-05",
   "id": "980554325",
   "title": "2026-11-05 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427585348.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427585333.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22444037,
+  "quality": "low",
   "start": "2026-11-05T21:00:00+08:00",
-  "start_ts": 1793883600000,
-  "size": 87312638
+  "start_ts": 1793883600000
  },
  {
   "date": "2026-11-06",
   "id": "980554346",
   "title": "2026-11-06 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427587113.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427587114.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22273287,
+  "quality": "low",
   "start": "2026-11-06T21:00:00+08:00",
-  "start_ts": 1793970000000,
-  "size": 87039978
+  "start_ts": 1793970000000
  },
  {
   "date": "2026-11-07",
   "id": "980554367",
   "title": "2026-11-07 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427588837.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427588833.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22278226,
+  "quality": "low",
   "start": "2026-11-07T21:00:00+08:00",
-  "start_ts": 1794056400000,
-  "size": 87176569
+  "start_ts": 1794056400000
  },
  {
   "date": "2026-11-08",
   "id": "980554388",
   "title": "2026-11-08 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427590657.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427590662.m4a?e=0&ps=2&r=3",
+  "type": "audio/mp4",
+  "size": 22252784,
+  "quality": "low",
   "start": "2026-11-08T21:00:00+08:00",
-  "start_ts": 1794142800000,
-  "size": 87294839
+  "start_ts": 1794142800000
  },
  {
   "date": "2026-11-09",
   "id": "980554409",
   "title": "2026-11-09 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427592546.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427592549.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22581666,
+  "quality": "low",
   "start": "2026-11-09T21:00:00+08:00",
-  "start_ts": 1794229200000,
-  "size": 87396912
+  "start_ts": 1794229200000
  },
  {
   "date": "2026-11-10",
   "id": "980554430",
   "title": "2026-11-10 新闻超链接",
-  "url": "https://ytmedia.radio.cn/file/202611/10/22/51923048842278dbe0814708884640c333741dbfh.mp3",
+  "url": "https://ytmedia.radio.cn/file/202611/10/22/51922659842278dbe0814708884640c333741dbfl.mp3",
   "type": "audio/mpeg",
+  "size": 21346356,
+  "quality": "low",
   "start": "2026-11-10T21:00:00+08:00",
-  "start_ts": 1794315600000,
-  "size": 85385330
+  "start_ts": 1794315600000
  },
  {
   "date": "2026-11-11",
   "id": "980554451",
   "title": "2026-11-11 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427596140.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427596141.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22336044,
+  "quality": "low",
   "start": "2026-11-11T21:00:00+08:00",
-  "start_ts": 1794402000000,
-  "size": 87227735
+  "start_ts": 1794402000000
  },
  {
   "date": "2026-11-12",
   "id": "980554472",
   "title": "2026-11-12 新闻超链接",
-  "url": "https://ytmedia.radio.cn/file/202611/12/23/552634090db6938c621949649e32380148949b08h.mp3",
+  "url": "https://ytmedia.radio.cn/file/202611/12/23/552629820db6938c621949649e32380148949b08l.mp3",
   "type": "audio/mpeg",
+  "size": 21596818,
+  "quality": "low",
   "start": "2026-11-12T21:00:00+08:00",
-  "start_ts": 1794488400000,
-  "size": 86387178
+  "start_ts": 1794488400000
  },
  {
   "date": "2026-11-13",
   "id": "980554493",
   "title": "2026-11-13 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427599583.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427599585.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22517273,
+  "quality": "low",
   "start": "2026-11-13T21:00:00+08:00",
-  "start_ts": 1794574800000,
-  "size": 87412911
+  "start_ts": 1794574800000
  },
  {
   "date": "2026-11-14",
   "id": "980554514",
   "title": "2026-11-14 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427601295.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427601296.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22455197,
+  "quality": "low",
   "start": "2026-11-14T21:00:00+08:00",
-  "start_ts": 1794661200000,
-  "size": 87312197
+  "start_ts": 1794661200000
  },
  {
   "date": "2026-11-15",
   "id": "980554535",
   "title": "2026-11-15 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427603008.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427603009.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22290661,
+  "quality": "low",
   "start": "2026-11-15T21:00:00+08:00",
-  "start_ts": 1794747600000,
-  "size": 87177111
+  "start_ts": 1794747600000
  },
  {
   "date": "2026-11-16",
   "id": "980554556",
   "title": "2026-11-16 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427604733.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427604732.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22273108,
+  "quality": "low",
   "start": "2026-11-16T21:00:00+08:00",
-  "start_ts": 1794834000000,
-  "size": 87072679
+  "start_ts": 1794834000000
  },
  {
   "date": "2026-11-17",
   "id": "980554577",
   "title": "2026-11-17 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427606471.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427606472.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22708398,
+  "quality": "low",
   "start": "2026-11-17T21:00:00+08:00",
-  "start_ts": 1794920400000,
-  "size": 87550579
+  "start_ts": 1794920400000
  },
  {
   "date": "2026-11-18",
   "id": "980554598",
   "title": "2026-11-18 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427608157.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427608158.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22311447,
+  "quality": "low",
   "start": "2026-11-18T21:00:00+08:00",
-  "start_ts": 1795006800000,
-  "size": 87212254
+  "start_ts": 1795006800000
  },
  {
   "date": "2026-11-19",
   "id": "980671082",
   "title": "2026-11-19 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427609900.m4a?e=0&ps=3&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427609901.m4a?e=0&ps=3&r=3",
+  "type": "audio/mp4",
+  "size": 20460119,
+  "quality": "low",
   "start": "2026-11-19T21:05:00+08:00",
-  "start_ts": 1795093500000,
-  "size": 79953500
+  "start_ts": 1795093500000
  },
  {
   "date": "2026-11-20",
   "id": "980554640",
   "title": "2026-11-20 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427611602.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427611603.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22273421,
+  "quality": "low",
   "start": "2026-11-20T21:00:00+08:00",
-  "start_ts": 1795179600000,
-  "size": 87107670
+  "start_ts": 1795179600000
  },
  {
   "date": "2026-11-21",
   "id": "980554661",
   "title": "2026-11-21 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427613322.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427613323.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22448747,
+  "quality": "low",
   "start": "2026-11-21T21:00:00+08:00",
-  "start_ts": 1795266000000,
-  "size": 87310697
+  "start_ts": 1795266000000
  },
  {
   "date": "2026-11-22",
   "id": "980554682",
   "title": "2026-11-22 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427615021.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427615022.m4a?e=0&ps=1&r=3",
+  "type": "audio/mp4",
+  "size": 22265693,
+  "quality": "low",
   "start": "2026-11-22T21:00:00+08:00",
-  "start_ts": 1795352400000,
-  "size": 87159911
+  "start_ts": 1795352400000
  },
  {
   "date": "2026-11-23",
   "id": "980554703",
   "title": "2026-11-23 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427616722.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427616723.m4a?e=0&ps=1&r=3",
   "type": "audio/mp4",
+  "size": 22630437,
+  "quality": "low",
   "start": "2026-11-23T21:00:00+08:00",
-  "start_ts": 1795438800000,
-  "size": 87481043
+  "start_ts": 1795438800000
  },
  {
   "date": "2026-11-24",
   "id": "980554724",
   "title": "2026-11-24 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427618438.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427618437.m4a?e=0&ps=1&r=3",
   "type": "audio/mp4",
-  "size": 87312763,
+  "size": 22499526,
+  "quality": "low",
   "start": "2026-11-24T21:00:00+08:00",
   "start_ts": 1795525200000
  },
@@ -287,9 +344,10 @@
   "date": "2026-11-25",
   "id": "980554745",
   "title": "2026-11-25 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427620222.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427620224.m4a?e=0&ps=1&r=3",
   "type": "audio/mp4",
-  "size": 87143243,
+  "size": 22252900,
+  "quality": "low",
   "start": "2026-11-25T21:00:00+08:00",
   "start_ts": 1795611600000
  },
@@ -297,9 +355,10 @@
   "date": "2026-11-26",
   "id": "980554766",
   "title": "2026-11-26 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427621945.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427621944.m4a?e=0&ps=1&r=3",
   "type": "audio/mp4",
-  "size": 87160273,
+  "size": 22271860,
+  "quality": "low",
   "start": "2026-11-26T21:00:00+08:00",
   "start_ts": 1795698000000
  },
@@ -307,9 +366,10 @@
   "date": "2026-11-27",
   "id": "980554787",
   "title": "2026-11-27 新闻超链接",
-  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427623664.m4a?e=0&ps=1&r=1",
+  "url": "https://ytrecordbroadcast.radio.cn/echo/2/2963630829427623667.m4a?e=0&ps=1&r=3",
   "type": "audio/mp4",
-  "size": 87483258,
+  "size": 22633509,
+  "quality": "low",
   "start": "2026-11-27T21:00:00+08:00",
   "start_ts": 1795784400000
  }
